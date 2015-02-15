@@ -31,29 +31,29 @@ insert into smjene( id_vozaca, smjena)
 
 
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (101, 'Bascarsija', 'Ilidza', 50, 5 );
+	VALUES (1, 'Bascarsija', 'Ilidza', 50, 5 );
 	
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (102, 'Dobrinja', 'TrgAustrije', 45, 6 );
+	VALUES (2, 'Dobrinja', 'TrgAustrije', 45, 6 );
 
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (103, 'Nedzarici', 'Bascarsija', 35, 10 );
+	VALUES (3, 'Nedzarici', 'Bascarsija', 35, 10 );
 
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (104, 'Skenderija', 'Mojmilo', 30, 20 );
+	VALUES (4, 'Skenderija', 'Mojmilo', 30, 20 );
 
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (105, 'Skenderija', 'Otoka', 30, 15 );
+	VALUES (5, 'Skenderija', 'Otoka', 30, 15 );
 
 insert into saobracajne_linije(id_linije, polazna_st, krajnja_st, vrijeme_I_voznje, vremenski_interval)
-	VALUES (106, 'Bascarsija', 'CVila', 25, 25);
+	VALUES (6, 'Bascarsija', 'CVila', 25, 25);
 
 
-insert into vozilo(id_vozila, tip) VALUES (201, 'autobus');
-insert into vozilo(id_vozila, tip) VALUES (202, 'tramvaj');
-insert into vozilo(id_vozila, tip) VALUES (203, 'tramvaj');
-insert into vozilo(id_vozila, tip) VALUES (204, 'trolejbus');
-insert into vozilo(id_vozila, tip) VALUES (205, 'trolejbus');	
+insert into vozilo(id_vozila, tip) VALUES (1, 'autobus');
+insert into vozilo(id_vozila, tip) VALUES (2, 'tramvaj');
+insert into vozilo(id_vozila, tip) VALUES (3, 'tramvaj');
+insert into vozilo(id_vozila, tip) VALUES (4, 'trolejbus');
+insert into vozilo(id_vozila, tip) VALUES (5, 'trolejbus');	
 
 insert into info(id_vozaca, id_vozila, id_linije) 
 VALUES (1, 1, 1); 
